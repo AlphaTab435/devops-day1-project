@@ -10,7 +10,7 @@ jobs:
       - name: Run backup
         run: bash backup.sh
       - name: Upload Backup Log
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: backup-log
           path: backup.log
